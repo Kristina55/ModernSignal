@@ -59,7 +59,7 @@ body {
 .alert-row {
   height: 450px;
 }
-.alert-row > .col-lg-3{
+.alert-row > .col-xl-3{
   padding: 0px 32px;
   font-size: 14px;
   height: 370px;
@@ -106,11 +106,11 @@ form > button:focus {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .search-container{
     height: 500px;
   }
-  .alert-row > .col-lg-3 {
+  .alert-row > .col-xl-3 {
   height: auto;
   margin-bottom: 30px;
   border-right: 1px solid black;
