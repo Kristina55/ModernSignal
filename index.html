@@ -7,10 +7,157 @@
   <!-- CSS only Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- Internal css file -->
+  <link rel="stylesheet" type="text/css" href="main.css">
   <title>ModernSignal</title>
 </head>
 
 <body>
+  <!-- Navigation Section -->
+  <div class="navigation-container-bg">
+    <div class="container">
+      <div class="row nav-row d-flex align-items-center">
+        <div class="col-lg">
+          <!-- Logos and Toggle Icon on Mobile -->
+          <nav class="navbar navbar-expand-lg" id="mainNav">
+            <div class="container p-0">
+              <a class="navbar-brand" href="#"><img src="images/logo-nasfaa.png" style="max-width: 200px;"></a>
+              <a class="navbar-brand" href="#"><img src="images/62dSTEmg.jpg" style="max-width: 150px;"></a>
+              <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Navigation List -->
+              <div class="collapse navbar-collapse align-items-right" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto align-items-right">
+                  <li class="nav-item text-right">
+                    <a class="nav-link" href="">Search Knowledgebase</a>
+                  </li>
+                  <li class="nav-item text-right">
+                    <a class="nav-link" href="">Resources</a>
+                  </li>
+
+                  <li class="nav-item text-right">
+                    <a class="nav-link" href="">Ask a Question</a>
+                  </li>
+                  <li class="nav-item text-right">
+                    <a class="nav-link" href="">MyAskRegs</a>
+                  </li>
+                  <li class="nav-item dropdown text-right">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false carries-link">
+                      Carrie
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Favorites</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Alert Section -->
+  <div class="alert-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg d-flex align-items-center">
+          <div class="mr-auto p-2">
+            <p class="mt-3 alert-text">AskRegs Alerts</p>
+          </div>
+          <!-- Arrow Down Collapse -->
+          <button class="arrow-button" type="button" data-toggle="collapse" data-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample"> <img src="images/arrow.svg" width="18" height="28"
+              title="arrow" />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="collapse alert-toggle-div w-100" id="collapseExample">
+    <div class="container">
+      <div class="row text-center alert-row w-100">
+        <div class="col-lg-3 text-left border-right border-dark">
+          <strong>Coronavirus:</strong><br> Refer to AskRegs Knowledgebase
+          Q&A, where Can I Find Guidance Related to the
+          Coronavirus (COVID-19)?</div>
+        <div class="col-lg-3 text-left border-right border-dark"><strong>Broken IFAP Links:</strong><br>
+          Due to site-wide changes on the Information for Financial Aid Professionals (IFAP) website in February, links
+          from Knowledgebase Q&As may be broken. We are working to reconnect these as soon as possible. In the meantime,
+          if you need to find the referenced documents, please visit the IFAP home page and navigate to the intended
+          item.</div>
+        <div class="col-lg-3 text-left border-right border-dark"><strong>Revised Term Lengths:</strong> <br>
+          In the November 5, 2019 Electronic Announcement, Revised Policy for Standard Term Length, ED revised the
+          definitions of standard terms. This guidance became effective immediately on the date of posting. As you
+          review Q&As within the AskRegs Knowledgebase, please consider the answers within the context of ED’s new
+          guidance and examples. We will be updating affected Knowledgebase Q&As over the coming weeks</div>
+        <div class="col-lg-3 text-left">
+          <strong>Coronavirus:</strong><br> Refer to AskRegs Knowledgebase
+          Q&A, where Can I Find Guidance Related to the
+          Coronavirus (COVID-19)?</div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Search Section -->
+  <div class="search-container d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg text-center">
+          <h1 class="text-white">Welcome to NASFAA’s AskRegs Knowledgebase</h1>
+          <p class="text-light">NASFAA’s AskRegs provides a searchable Knowledgebase of answers to financial aid
+            administrators' questions. Get started
+            by browsing or searching the large library of questions and
+            responses for an immediate answer. If you can't find an
+            answer to your specific question, select
+            “Questions” above to begin the submission process.
+            Our experts will thoroughly research your quest
+            ion and provide you a comprehensive answer,
+            including any applicable regulatory citations. That question and answer may then be added (without
+            identifying information) as appropriate to further expand the Knowledgebase Q&A library.</p>
+          <form class="form-inline d-flex justify-content-center">
+            <input class="form-control mr-sm-2" style="width:60%" type="search" placeholder="Research Your Topic"
+              aria-label="Search">
+            <button><img src="images/search.svg" alt="" width="25" height="36" title="magnifying-glass" /></button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Announcements Sectiom -->
+  <div class="container announcements-container d-flex justify-content-center align-items-center">
+    <div class="row">
+      <div class="col-lg announcement-text">
+        <h1 class="text-center text-secondary">Announcement Header Here</h1>
+        <p class="text-center text-secondary">Lorem ipsum dolor sit amet, consectetur, adipiscing elit, sed do eiusmod
+          tempor
+          incididunt ut labore et
+          dolore
+          magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 
 </body>
 

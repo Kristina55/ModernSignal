@@ -1,0 +1,128 @@
+body {
+  font-family: "Open Sans";
+}
+
+/* Navigation Container */
+
+.navigation-container-bg{
+  background-color: #23A2E0;
+ 
+}
+.nav-row{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+.navbar, .carries-link{
+  padding: 0px;
+}
+
+.nav-link{
+  color:white !important;
+  display: inline-block;
+  padding: 0px;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,255,255)
+} 
+.dropdown {
+  position: absolute;
+  top: -17px;
+  right: 0px;
+}
+/* Alert Container */
+
+.alert-container{
+  background-color: #A7BAC5;
+}
+.alert-row > div > strong {
+  font-size: 16px;
+}
+.alert-text{
+  color:#CF0101;
+  font-size:25px;
+  font-weight: bold;
+}
+
+.arrow-button {
+  border: 2px solid #CF0101;
+  background-color: transparent;
+}
+.arrow-button:focus {
+  outline:red
+}
+.alert-toggle-div {
+  position: absolute;
+  z-index:100;
+  background-color: #A7BAC5;
+}
+.alert-row {
+  height: 450px;
+}
+.alert-row > .col-lg-3{
+  padding: 0px 32px;
+  font-size: 14px;
+  height: 370px;
+}
+
+
+/* Search Section */
+.search-container{
+  position: relative;
+  height: 400px;
+  background-color: #23628A;
+}
+
+.text-center > h1{
+  font-size:30px;
+  margin-bottom: 30px;
+}
+
+.text-center > p{
+  font-size:14px;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+form > button {
+  border:none;
+  background-color:#EC9825;
+  padding:0 12px 0 12px
+}
+form > button:focus {
+  outline:#EC9825;
+}
+/* Announcements Section */
+
+.announcements-container {
+  background-color:#F7F7F7;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.announcement-text > h1 {
+  font-size:30px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1000px) {
+  .search-container{
+    height: 500px;
+  }
+  .alert-row > .col-lg-3 {
+  height: auto;
+  margin-bottom: 30px;
+  border-right: 1px solid black;
+  }
+  .alert-toggle-div {
+    height: 570px;
+  }
+}
